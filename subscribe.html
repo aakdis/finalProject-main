@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+	  <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="js/clickfaq.js"></script>
+
+    <title>Subscribe</title>
+</head>
+
+<body>
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <header>
+		<nav>
+			<ul>
+				<li><a href = "homepage.html">Welcome</a></li>
+				<li><a href = "aboutMe.html">About Me</a></li>
+				<li><a href = "travelGuides.html">Travel Guides</a></li>
+				<li><a href = "subscribe.html" class = "underline">Subscribe</a></li>
+			</ul>
+      <div class="logo">
+        <main id="main">
+          <img src="images/logo.png" alt="Yeah I Know a Spot Logo">
+          </main> 
+    </div>
+		</nav>
+		<h1> Subscribe</h1>
+	</header>
+
+      <form action="interest" action="/action_page.php">
+        <fieldset>
+          <legend>Interest Form</legend>
+          <div id="check">
+          <label>
+            <input type="checkbox" name="subscribe" id="subscribe" onclick = interest()>
+            Subscribe to get more travel guides sent to your inbox!
+          </label>
+          </div>
+
+          <div id="emailDiv" style="display: none;">
+            <label>
+              Email Address: 
+              <input type="text" name="email" id="email">
+              <input type="button" onclick="myFunction()" value="Submit">
+            </label>
+          </div>
+    
+        </fieldset>
+        <p></p>
+      </form>
+
+      <h1 style="background-image: url('images/bikini.jpg'); 
+           background-size: 50%; 
+           background-position: center; ; 
+           padding: 100% 0; 
+           font-size: 3rem;">
+      </h1>
+
+      <footer>
+        <p>Yeah I Know A Spot - All Rights Reserved</p>
+      
+        <a href="https://www.instagram.com/yeah.i.know.a.spot/" target="_blank">
+        <img src="images/Instagram_icon.png" width=35px alt="Instagram link">
+        </a>
+        <a href="https://www.pinterest.com/yeahiknowaspot/" target="_blank">
+          <img src="images/Pinterest-logo.png" width=40px alt="Pinterest link">
+          </a>
+        
+        </footer>
+      </html>
