@@ -196,11 +196,12 @@ header nav {
 
 .skip a {
   position: absolute;
-  top: -50000px;
-  color: white;
+  top: -50px;
+  color: #8b0000;
 }
 
-*:focus {
+.skip a:focus {
+  top: 25px; 
   border: 2px solid;
 }
 
@@ -210,6 +211,16 @@ h3 {
 
 p {
   color: white;
+}
+
+.adventure-heading {
+  background-image: url('/images/colloseum.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  text-align: center;
+  padding: 20% 0;
+  font-size: 3rem;
 }
 
 .areas {
@@ -276,15 +287,6 @@ form {
 }
 
 /* Gallery image hover effect */
-.gallery img {
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.gallery img:hover {
-  transform: scale(1.1);
-}
 
 /* Logo styling */
 .logo img {
@@ -329,7 +331,7 @@ form {
   color: black;
 }
 
-/* Reduce motion styles */
+/* Reduce motion styles CHANGE */
 @media screen and (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto; 
@@ -472,7 +474,7 @@ button:hover {
   display: block;
 }
 
-@media screen and (min-width: 900px) and (max-width: 1399px) {
+@media screen and (min-width: 900px) {
   .grid-item img {
     width: 300px;
     height: auto;
@@ -490,6 +492,6 @@ button:hover {
   }
 
   #myImage:hover {
-    transform: scale(5); 
+    transform: scale(2); 
   }
 }
