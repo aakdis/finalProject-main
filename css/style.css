@@ -214,7 +214,7 @@ p {
 }
 
 .adventure-heading {
-  background-image: url('/images/colloseum.jpg');
+  background-image: url('../images/colloseum.jpg');
   background-size: cover;
   background-position: center;
   color: black;
